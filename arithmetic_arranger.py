@@ -1,8 +1,3 @@
-class ToomanyproblemsExc (Exception):
-    "Raised when the input value is less than 18"
-    pass
-
-
 def arithmetic_arranger(*nums):
 
     n = {}
@@ -66,7 +61,4 @@ def arithmetic_arranger(*nums):
 
     print()
 
-a=["32 + 8", "1 - 3801", "9999 + 9999", "523 - 49","1 + 1"]
 
-arithmetic_arranger(a,True)
-arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
